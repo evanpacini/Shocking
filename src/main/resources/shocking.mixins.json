@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "works.moes.shocking.shocking.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ShockingMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

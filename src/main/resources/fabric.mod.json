@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "shocking",
+  "version": "${version}",
+  "name": "Shocking",
+  "description": "Shocks user when they take damage in-game. ",
+  "authors": [
+    "evanpacini",
+    "KaspervanM"
+  ],
+  "contact": {
+    "repo": "https://github.com/evanpacini/Shocking"
+  },
+  "license": "MIT",
+  "icon": "assets/shocking/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "works.moes.shocking.shocking.Shocking"
+    ]
+  },
+  "mixins": [
+    "shocking.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
