@@ -4,9 +4,9 @@
   "package": "works.moes.shocking.shocking.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ShockingMixin"
   ],
   "client": [
+    "ShockingMixin"
   ],
   "injectors": {
     "defaultRequire": 1
